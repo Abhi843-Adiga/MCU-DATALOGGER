@@ -1,4 +1,5 @@
 *.txt
 *backups/*
 fp -info -cache 
+*.kicad_sch.lck
 
