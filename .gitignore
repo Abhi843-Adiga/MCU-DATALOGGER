@@ -1,0 +1,4 @@
+*.txt
+*backups/*
+fp -info -cache 
+
