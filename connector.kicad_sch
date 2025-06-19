@@ -966,15 +966,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 89.154 66.294 0)
+		(at 80.01 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "26763568-b79e-4b3b-b2f9-00b4293b4608")
-		(property "Reference" "J?"
-			(at 89.789 58.42 0)
+		(property "Reference" "J2"
+			(at 80.645 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +982,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 89.789 60.96 0)
+			(at 80.645 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 89.154 66.294 0)
+			(at 80.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +999,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 89.154 66.294 0)
+			(at 80.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,7 +1008,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 89.154 66.294 0)
+			(at 80.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1017,7 @@
 			)
 		)
 		(property "purpose" "I2C"
-			(at 86.36 67.31 0)
+			(at 77.216 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,7 +1039,7 @@
 		(instances
 			(project ""
 				(path "/3b0fcfdb-a6be-445d-b7c4-9e7a0848a48e/4dcddee0-74b0-4b70-a68e-7c337efdec33"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1047,15 +1047,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
-		(at 88.9 86.614 0)
+		(at 86.36 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "43afa1de-ac33-46fa-8394-39ce492bc126")
-		(property "Reference" "J?"
-			(at 89.535 71.12 0)
+		(property "Reference" "J3"
+			(at 83.82 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,7 +1063,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09_Pin"
-			(at 89.535 73.66 0)
+			(at 86.995 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 86.614 0)
+			(at 86.36 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1080,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 86.614 0)
+			(at 86.36 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1089,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 88.9 86.614 0)
+			(at 86.36 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +1098,7 @@
 			)
 		)
 		(property "PURPOSE" "GPIO"
-			(at 85.09 88.9 0)
+			(at 82.55 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1135,7 @@
 		(instances
 			(project ""
 				(path "/3b0fcfdb-a6be-445d-b7c4-9e7a0848a48e/4dcddee0-74b0-4b70-a68e-7c337efdec33"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1150,8 +1150,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b94cccf5-74d4-40e9-997b-5af3398c1898")
-		(property "Reference" "J?"
-			(at 95.25 102.87 0)
+		(property "Reference" "J4"
+			(at 87.63 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1222,7 @@
 		(instances
 			(project ""
 				(path "/3b0fcfdb-a6be-445d-b7c4-9e7a0848a48e/4dcddee0-74b0-4b70-a68e-7c337efdec33"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1230,7 +1230,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 107.696 66.294 0)
+		(at 99.06 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1238,7 +1238,7 @@
 		(dnp no)
 		(uuid "e36ab517-844b-4fdf-abce-1c7b46612ad6")
 		(property "Reference" "J1"
-			(at 108.331 58.42 0)
+			(at 99.695 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1246,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 108.331 60.96 0)
+			(at 99.695 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,7 +1254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.696 66.294 0)
+			(at 99.06 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.696 66.294 0)
+			(at 99.06 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1272,7 +1272,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 107.696 66.294 0)
+			(at 99.06 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,7 +1281,7 @@
 			)
 		)
 		(property "purpose" "serial UART"
-			(at 110.49 73.66 0)
+			(at 101.854 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
