@@ -2202,7 +2202,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e207282-27dd-42a4-859f-47cb0f730a4c")
 		(property "Reference" "C1"
 			(at 100.584 54.6099 0)
@@ -2213,8 +2212,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 100.584 57.1499 0)
+		(property "Value" "22pF"
+			(at 91.44 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2281,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.768 KHZ"
 			(at 17.78 40.132 0)
 			(effects
 				(font
@@ -2398,16 +2397,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.026 42.164 0)
+		(at 80.01 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2f750bfd-effe-4a70-91d7-f02a2dc9de0d")
 		(property "Reference" "C3"
-			(at 85.09 40.8939 0)
+			(at 82.55 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,8 +2413,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 85.09 43.4339 0)
+		(property "Value" "0.1uF"
+			(at 82.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.9912 45.974 0)
+			(at 80.9752 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2432,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.026 42.164 0)
+			(at 80.01 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2441,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 81.026 42.164 0)
+			(at 80.01 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22pF"
 			(at 100.584 46.9899 0)
 			(effects
 				(font
@@ -2694,16 +2692,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.564 41.91 0)
+		(at 67.31 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "630e7d23-d318-4df1-88ab-e70b64afe0bd")
 		(property "Reference" "R6"
-			(at 69.596 40.6399 0)
+			(at 63.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,8 +2708,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 69.596 43.1799 0)
+		(property "Value" "10k"
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +2718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 65.786 41.91 90)
+			(at 65.532 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2727,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.564 41.91 0)
+			(at 67.31 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +2736,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.564 41.91 0)
+			(at 67.31 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +2905,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 110.49 20.32 90)
 			(effects
 				(font
@@ -2976,7 +2973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100 nF"
 			(at 264.16 45.72 0)
 			(effects
 				(font
@@ -3046,7 +3043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 103.632 124.4599 0)
 			(effects
 				(font
@@ -3115,7 +3112,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 104.14 59.69 90)
 			(effects
 				(font
@@ -3493,7 +3490,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "16 MHZ"
 			(at 111.506 52.0699 90)
 			(effects
 				(font
@@ -3706,16 +3703,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 42.164 0)
+		(at 72.39 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e9ef9cb9-ed33-4106-b94b-cb3359343f40")
 		(property "Reference" "R5"
-			(at 75.692 40.8939 0)
+			(at 74.422 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,8 +3719,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 75.692 43.4339 0)
+		(property "Value" "10k"
+			(at 73.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.882 42.164 90)
+			(at 70.612 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 42.164 0)
+			(at 72.39 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3747,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 42.164 0)
+			(at 72.39 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 112.522 124.4599 0)
 			(effects
 				(font
@@ -3949,7 +3945,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 97.79 34.544 90)
 			(effects
 				(font
@@ -4018,7 +4014,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 256.032 60.9599 0)
 			(effects
 				(font
