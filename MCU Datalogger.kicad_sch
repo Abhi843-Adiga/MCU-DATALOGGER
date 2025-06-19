@@ -10,7 +10,7 @@
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "2025-06-18_17-37-05:ATMEGA328PB-AU"
+		(symbol "2025-06-19_06-22-11:ATMEGA328P-AU"
 			(pin_names
 				(offset 0.254)
 			)
@@ -18,22 +18,22 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 66.04 10.16 0)
+				(at 58.42 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "ATMEGA328PB-AU"
-				(at 66.04 7.62 0)
+			(property "Value" "ATMEGA328P-AU"
+				(at 58.42 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "32A_MCH"
+			(property "Footprint" "TQFP32_32A_MCH"
 				(at 0 0 0)
 				(effects
 					(font
@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "ATMEGA328PB-AU"
+			(property "Datasheet" "ATMEGA328P-AU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,7 +70,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "ATMEGA328PB-AU"
+			(property "ki_keywords" "ATMEGA328P-AU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,7 +79,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "32A_MCH 32A_MCH-M 32A_MCH-L"
+			(property "ki_fp_filters" "TQFP32_32A_MCH TQFP32_32A_MCH-M TQFP32_32A_MCH-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -88,7 +88,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ATMEGA328PB-AU_0_1"
+			(symbol "ATMEGA328P-AU_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -43.18)
@@ -103,7 +103,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -43.18) (xy 124.46 -43.18)
+						(xy 7.62 -43.18) (xy 109.22 -43.18)
 					)
 					(stroke
 						(width 0.127)
@@ -115,7 +115,7 @@
 				)
 				(polyline
 					(pts
-						(xy 124.46 5.08) (xy 7.62 5.08)
+						(xy 109.22 5.08) (xy 7.62 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -127,7 +127,7 @@
 				)
 				(polyline
 					(pts
-						(xy 124.46 -43.18) (xy 124.46 5.08)
+						(xy 109.22 -43.18) (xy 109.22 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -140,7 +140,7 @@
 				(pin bidirectional line
 					(at 0 0 0)
 					(length 7.62)
-					(name "(OC2B/INT1/PTCXY)PD3"
+					(name "PD3(PCINT19/OC2B/INT1)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -158,7 +158,7 @@
 				(pin bidirectional line
 					(at 0 -2.54 0)
 					(length 7.62)
-					(name "(XCK0/T0/PTCXY)PD4"
+					(name "PD4(PCINT20/XCK/T0)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -173,10 +173,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 0 -5.08 0)
 					(length 7.62)
-					(name "(SDA1/ICP4/ACO/PTCXY)PE0"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -209,7 +209,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -10.16 0)
 					(length 7.62)
 					(name "GND"
@@ -227,10 +227,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 0 -12.7 0)
 					(length 7.62)
-					(name "(SCL1/T4/PTCXY)PE1"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -248,7 +248,7 @@
 				(pin bidirectional line
 					(at 0 -15.24 0)
 					(length 7.62)
-					(name "(XTAL1/TOSC1)PB6"
+					(name "PB6(PCINT6/XTAL1/TOSC1)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -266,7 +266,7 @@
 				(pin bidirectional line
 					(at 0 -17.78 0)
 					(length 7.62)
-					(name "(XTAL2/TOSC2)PB7"
+					(name "PB7(PCINT7/XTAL2/TOSC2)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -284,7 +284,7 @@
 				(pin bidirectional line
 					(at 0 -20.32 0)
 					(length 7.62)
-					(name "(OC0B/T1/PTCXY)PD5"
+					(name "PD5(PCINT21/OC0B/T1)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -302,7 +302,7 @@
 				(pin bidirectional line
 					(at 0 -22.86 0)
 					(length 7.62)
-					(name "(OC0A/PTCXY/AIN0)PD6"
+					(name "PD6(PCINT22/OC0A/AIN0)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -317,10 +317,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 0 -25.4 0)
 					(length 7.62)
-					(name "(PTCXY/AIN1)PD7"
+					(name "PD7(PCINT23/AIN1)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -338,7 +338,7 @@
 				(pin bidirectional line
 					(at 0 -27.94 0)
 					(length 7.62)
-					(name "(ICP1/CLKO/PTCXY)PB0"
+					(name "PB0(PCINT0/CLKO/ICP1)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -356,7 +356,7 @@
 				(pin bidirectional line
 					(at 0 -30.48 0)
 					(length 7.62)
-					(name "(OC1A/PTCXY)PB1"
+					(name "PB1(PCINT1/OC1A)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -374,7 +374,7 @@
 				(pin bidirectional line
 					(at 0 -33.02 0)
 					(length 7.62)
-					(name "(*SS0/OC1B/PTCXY)PB2"
+					(name "PB2(PCINT2/*SS/OC1B)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -392,7 +392,7 @@
 				(pin bidirectional line
 					(at 0 -35.56 0)
 					(length 7.62)
-					(name "(MOSI0/TXD1/OC2A/PTCXY)PB3"
+					(name "PB3(PCINT3/OC2A/MOSI)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -410,7 +410,7 @@
 				(pin bidirectional line
 					(at 0 -38.1 0)
 					(length 7.62)
-					(name "(MISO0/RXD1/PTCXY)PB4"
+					(name "PB4(PCINT4/MISO)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -426,9 +426,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 132.08 0 180)
+					(at 116.84 0 180)
 					(length 7.62)
-					(name "(PTCXY/INT0/OC3B/OC4B)PD2"
+					(name "PD2(INT0/PCINT18)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -444,9 +444,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 132.08 -2.54 180)
+					(at 116.84 -2.54 180)
 					(length 7.62)
-					(name "(PTCXY/OC4A/TXD0)PD1"
+					(name "PD1(TXD/PCINT17)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -462,9 +462,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 132.08 -5.08 180)
+					(at 116.84 -5.08 180)
 					(length 7.62)
-					(name "(PTCXY/OC3A/RXD0)PD0"
+					(name "PD0(RXD/PCINT16)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -480,9 +480,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 132.08 -7.62 180)
+					(at 116.84 -7.62 180)
 					(length 7.62)
-					(name "(*RESET)PC6"
+					(name "PC6(*RESET/PCINT14)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -498,9 +498,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 132.08 -10.16 180)
+					(at 116.84 -10.16 180)
 					(length 7.62)
-					(name "(ADC5/PTCY/SCL0)PC5"
+					(name "PC5(ADC5/SCL/PCINT13)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -516,9 +516,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 132.08 -12.7 180)
+					(at 116.84 -12.7 180)
 					(length 7.62)
-					(name "(ADC4/PTCY/SDA0)PC4"
+					(name "PC4(ADC4/SDA/PCINT12)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -534,9 +534,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 132.08 -15.24 180)
+					(at 116.84 -15.24 180)
 					(length 7.62)
-					(name "(ADC3/PTCY)PC3"
+					(name "PC3(ADC3/PCINT11)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -552,9 +552,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 132.08 -17.78 180)
+					(at 116.84 -17.78 180)
 					(length 7.62)
-					(name "(ADC2/PTCY)PC2"
+					(name "PC2(ADC2/PCINT10)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -570,9 +570,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 132.08 -20.32 180)
+					(at 116.84 -20.32 180)
 					(length 7.62)
-					(name "(ADC1/PTCY/SCK1)PC1"
+					(name "PC1(ADC1/PCINT9)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -588,9 +588,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 132.08 -22.86 180)
+					(at 116.84 -22.86 180)
 					(length 7.62)
-					(name "(ADC0/PTCY/MISO1)PC0"
+					(name "PC0(ADC0/PCINT8)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -605,10 +605,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 132.08 -25.4 180)
+				(pin unspecified line
+					(at 116.84 -25.4 180)
 					(length 7.62)
-					(name "(ADC7/PTCY/T3/MOSI1)PE3"
+					(name "ADC7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -623,8 +623,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 132.08 -27.94 180)
+				(pin power_out line
+					(at 116.84 -27.94 180)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -641,8 +641,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 132.08 -30.48 180)
+				(pin power_in line
+					(at 116.84 -30.48 180)
 					(length 7.62)
 					(name "AREF"
 						(effects
@@ -659,10 +659,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 132.08 -33.02 180)
+				(pin unspecified line
+					(at 116.84 -33.02 180)
 					(length 7.62)
-					(name "(ADC6/PTCY/ICP3/*SS1)PE2"
+					(name "ADC6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -678,7 +678,7 @@
 					)
 				)
 				(pin power_in line
-					(at 132.08 -35.56 180)
+					(at 116.84 -35.56 180)
 					(length 7.62)
 					(name "AVCC"
 						(effects
@@ -696,9 +696,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 132.08 -38.1 180)
+					(at 116.84 -38.1 180)
 					(length 7.62)
-					(name "(PTCXY/XCK1/SCK0)PB5"
+					(name "PB5(SCK/PCINT5)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3169,166 +3169,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2025-06-18_17-37-05:ATMEGA328PB-AU")
-		(at 143.51 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e0f0eff-17a5-4036-b5b5-2b7edff659fe")
-		(property "Reference" "U?"
-			(at 209.55 36.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ATMEGA328PB-AU"
-			(at 209.55 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "32A_MCH"
-			(at 143.51 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "ATMEGA328PB-AU"
-			(at 143.51 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "8f0f5461-b9b6-4f8e-989d-d7ee2d73275b")
-		)
-		(pin "7"
-			(uuid "90cc488b-a2c3-42b2-97f8-74441e0c2cc2")
-		)
-		(pin "2"
-			(uuid "775b19d6-f046-4739-86be-4c5290f4d19f")
-		)
-		(pin "29"
-			(uuid "f41f593f-260a-4ed8-9b03-737750b78902")
-		)
-		(pin "27"
-			(uuid "22e1af1d-19b1-48eb-9867-2a105fd3ffc8")
-		)
-		(pin "26"
-			(uuid "6eb1b489-0c31-4a35-8cd4-ffe03c47fa8d")
-		)
-		(pin "3"
-			(uuid "164b3d26-a486-4dc0-8040-9e3a800af550")
-		)
-		(pin "8"
-			(uuid "bb5114eb-4698-4265-9d35-0488e43cca09")
-		)
-		(pin "1"
-			(uuid "a4f0867c-8719-4372-b847-237f51906c3c")
-		)
-		(pin "6"
-			(uuid "64d7da5d-781b-40bc-9c9a-0d081b2b7a05")
-		)
-		(pin "4"
-			(uuid "5c0fbff3-79c1-4644-aef0-7bc666a83301")
-		)
-		(pin "5"
-			(uuid "fb6a0f03-26ec-41f8-a2c8-58665c9a8b88")
-		)
-		(pin "11"
-			(uuid "8f200b7f-4a29-4b05-bc07-e50c8d49b4f9")
-		)
-		(pin "12"
-			(uuid "d400e7f8-5c9c-471e-aff9-99a69cdf32e7")
-		)
-		(pin "13"
-			(uuid "d8d786d3-03f9-4fcb-822a-bfaeba4a898c")
-		)
-		(pin "14"
-			(uuid "cfa3a559-9d3c-4c6e-96b7-f1b6f39b61a2")
-		)
-		(pin "15"
-			(uuid "68e84f62-b5fc-40ef-9305-aa1657610df6")
-		)
-		(pin "16"
-			(uuid "e7715d97-b3fd-4b4b-886b-d2b93e9748fc")
-		)
-		(pin "32"
-			(uuid "e438ed1a-a0ab-42de-8eb1-a48dcbb20b7b")
-		)
-		(pin "10"
-			(uuid "96e3d773-df19-4f8a-b17e-766e2d716818")
-		)
-		(pin "31"
-			(uuid "0d7d8d38-de03-40d2-b00a-17636b55b7f0")
-		)
-		(pin "30"
-			(uuid "239b3916-0ac1-4a45-84b3-af04543d888c")
-		)
-		(pin "28"
-			(uuid "5b65ea48-1753-4293-8626-b844f68a0137")
-		)
-		(pin "20"
-			(uuid "1170f024-4bae-430d-b75a-15cc9eadf122")
-		)
-		(pin "23"
-			(uuid "d2d69990-c9a9-4dd9-b271-26c7487fb5bf")
-		)
-		(pin "21"
-			(uuid "52c04c34-0e41-454a-92e4-e22a4a771fd5")
-		)
-		(pin "19"
-			(uuid "65830ec3-6468-4d58-a32e-8ca3753ac275")
-		)
-		(pin "25"
-			(uuid "2fdee230-91cf-4c73-a884-b254797967da")
-		)
-		(pin "18"
-			(uuid "7661c65d-4c13-4b1c-8afd-d216fc1bdaef")
-		)
-		(pin "24"
-			(uuid "6fdb11e2-c69a-49b0-8bbd-c1c3c107f075")
-		)
-		(pin "22"
-			(uuid "408950ae-c0e3-421d-9d1c-e3b34afad294")
-		)
-		(pin "17"
-			(uuid "beab4edb-7aad-45b4-8ed3-f869ac0878c8")
-		)
-		(instances
-			(project ""
-				(path "/3b0fcfdb-a6be-445d-b7c4-9e7a0848a48e"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 115.316 95.758 0)
 		(unit 1)
@@ -3701,6 +3541,166 @@
 			(project ""
 				(path "/3b0fcfdb-a6be-445d-b7c4-9e7a0848a48e"
 					(reference "Y?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-06-19_06-22-11:ATMEGA328P-AU")
+		(at 141.986 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4979f2d-0c49-4cd4-8147-57861432e33b")
+		(property "Reference" "U?"
+			(at 200.406 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ATMEGA328P-AU"
+			(at 200.406 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TQFP32_32A_MCH"
+			(at 141.986 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "ATMEGA328P-AU"
+			(at 141.986 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 141.986 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "353fbe02-1970-447d-aed5-1844bc99c46a")
+		)
+		(pin "5"
+			(uuid "da29b7bb-4c5b-4349-87c8-0f04bef1a40a")
+		)
+		(pin "7"
+			(uuid "629d0f01-3726-4b6a-82ee-b70a600501e5")
+		)
+		(pin "1"
+			(uuid "6a226e32-3af1-49df-b782-fea6e0575924")
+		)
+		(pin "3"
+			(uuid "e11d52c8-52ef-44c4-9d17-7dd067fd97ca")
+		)
+		(pin "9"
+			(uuid "4ef13071-b053-4451-97cf-a02dd92c4ba8")
+		)
+		(pin "2"
+			(uuid "3c9cf139-c8fa-44cf-8b14-61d4535c3ed2")
+		)
+		(pin "4"
+			(uuid "30c4f83b-2df8-41d0-9cf5-c730edc6ebbb")
+		)
+		(pin "8"
+			(uuid "374e307f-12f8-4064-9ab7-1aa9af8fc361")
+		)
+		(pin "6"
+			(uuid "31468586-8f47-4ed9-8288-0c52c2906957")
+		)
+		(pin "10"
+			(uuid "6308ec87-3b81-4cb7-9cdd-64a2f5f420dc")
+		)
+		(pin "12"
+			(uuid "8c5ac11a-7927-4603-b3ca-95576bdfa628")
+		)
+		(pin "13"
+			(uuid "ffa0d92d-5e2d-4f98-85c4-74c1d7aa7be3")
+		)
+		(pin "14"
+			(uuid "457c8be2-c2ea-4e0b-b7a5-f265be72a129")
+		)
+		(pin "15"
+			(uuid "6b202310-0eb4-464e-990e-2cb4ed3cb247")
+		)
+		(pin "16"
+			(uuid "11d8da57-8da1-4165-98a0-d33704590177")
+		)
+		(pin "32"
+			(uuid "2655dc78-d4fa-4eb5-941c-3287c41dfd28")
+		)
+		(pin "31"
+			(uuid "b5e9ee1f-3966-485f-b267-1992a638f202")
+		)
+		(pin "25"
+			(uuid "7da4a935-ad29-45c7-8d95-861b7ad7c66f")
+		)
+		(pin "29"
+			(uuid "5cbcb33e-8533-453e-a380-a8ee0be2a02c")
+		)
+		(pin "23"
+			(uuid "1e6b33c6-e618-45ef-88aa-d0654b12f548")
+		)
+		(pin "21"
+			(uuid "c6f6e338-73d6-4042-8bcb-d5fcf6512a7f")
+		)
+		(pin "19"
+			(uuid "bd7a6a05-2334-45b9-b4ef-8e6b93a2eb43")
+		)
+		(pin "20"
+			(uuid "87c92103-db35-4f31-ae23-6308c957231a")
+		)
+		(pin "28"
+			(uuid "2d61e192-6ab5-48a5-8a72-27307cae7671")
+		)
+		(pin "18"
+			(uuid "eca455a4-7623-459a-9c9e-301f85d12146")
+		)
+		(pin "26"
+			(uuid "c868b31b-b6ca-419c-b8ee-900aea055419")
+		)
+		(pin "17"
+			(uuid "ba2906f4-e85b-4dfd-ba96-3cb52027460c")
+		)
+		(pin "27"
+			(uuid "585c8b09-01dc-41e4-906c-144b82920ecd")
+		)
+		(pin "24"
+			(uuid "3c0acab5-6ad3-4d2d-af73-4be1d09257dd")
+		)
+		(pin "22"
+			(uuid "e22ebc38-2318-4264-82a5-13b428e51a41")
+		)
+		(pin "30"
+			(uuid "43fcdf30-3acb-4543-ba1b-e5a5d4a61403")
+		)
+		(instances
+			(project ""
+				(path "/3b0fcfdb-a6be-445d-b7c4-9e7a0848a48e"
+					(reference "U?")
 					(unit 1)
 				)
 			)
