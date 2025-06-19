@@ -1,6 +1,6 @@
 *.txt
 *backups/*
-fp -info -cache 
+fp-info-cache 
 *.kicad_sch.lck
 *.htm
 
