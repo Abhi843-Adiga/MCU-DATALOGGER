@@ -1107,6 +1107,17 @@
 		)
 		(uuid "691d4414-40f2-4e47-a4f3-d38ffff0e9de")
 	)
+	(hierarchical_label "SCL"
+		(shape passive)
+		(at 85.09 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71b10108-612e-4b1b-9642-eb90efbc4f0f")
+	)
 	(hierarchical_label "D6"
 		(shape bidirectional)
 		(at 91.44 87.63 0)
@@ -1128,17 +1139,6 @@
 			(justify left)
 		)
 		(uuid "a7331791-c653-4589-8d2d-40e4736f4b4e")
-	)
-	(hierarchical_label "SCK"
-		(shape passive)
-		(at 85.09 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ade108dd-3a05-4fdf-80d0-38b7d20f9e5e")
 	)
 	(hierarchical_label "vcc"
 		(shape passive)
