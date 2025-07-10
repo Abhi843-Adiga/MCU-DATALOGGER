@@ -19,10 +19,5 @@ It will likely not pass regulatory certifications without further revisions.
 
 Do not use these designs for a production-ready or commercial product without performing a thorough analysis and validation for SI, PI, and EMC.
 
-1.  Clone this repository.
-2.  Open the PCB design files in your preferred EDA software (e.g., KiCad, Altium, Eagle).
-3.  Review the layout and the disclaimer.
-4.  Generate Gerber and drill files for fabrication at your own risk.
-
-Contributing
+Contributing:
 If you have experience in SI/PI analysis, EMC hardening, or would like to improve the design, please feel free to fork the repository and submit a pull request.
